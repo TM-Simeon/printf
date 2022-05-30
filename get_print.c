@@ -24,7 +24,7 @@ ph func_arr[] = {
 {'o', print_octal},
 {'R', print_rot13},
 {'r', print_rev},
-{'S', print_bigS},
+{'S', print_bigs},
 {'p', print_address},
 {'%', print_percent}
 };
