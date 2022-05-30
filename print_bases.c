@@ -34,7 +34,7 @@ return (count);
  */
 int print_hex_big(va_list l, flags_t *f)
 {
-	unsigned int num = va_arg(l, unsinged int);
+	unsigned int num = va_arg(l, unsigned int);
 	char *str = convert(num, 16, 0);
 	int count = 0;
 
@@ -54,7 +54,7 @@ int print_hex_big(va_list l, flags_t *f)
  */
 int print_binary(va_list l, flags_t *f)
 {
-unsinged int num = va_arg(l, unsinged int);
+unsigned int num = va_arg(l, unsigned int);
 char *str = convert(num, 2, 0);
 
 (void)f;
