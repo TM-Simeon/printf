@@ -7,7 +7,7 @@
  * @lowercase: flag if hexa values need to be lowercse
  * Return: result string
  */
-char *coinvert(unsigned long int num, int base, int lowercase)
+char *convert(unsigned long int num, int base, int lowercase)
 {
 static char *rep;
 static char buffer[50];
