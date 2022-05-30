@@ -44,7 +44,7 @@ int print_binary(va_list l, flags_t *f);
 int print_octal(va_list l, flags_t *f);
 
 /* converter */
-char *convert(unsigned ong int num, int base, int lowercase);
+char *convert(unsigned ong, int num, int base, int lowercase);
 
 /* _printf */
 int _printf(const char *format, ...);
