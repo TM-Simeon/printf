@@ -87,7 +87,7 @@ else
 for (i = 0; i <= 52; i++)
 {
 if (s[j] == rot13[i])
-_putchar(ROT13[I]);
+_putchar(ROT13[i]);
 }
 }
 }
